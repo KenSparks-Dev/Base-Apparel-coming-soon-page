@@ -2,8 +2,8 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
 	background-image: linear-gradient(hsl(0, 0%, 100%), hsl(0, 100%, 98%));
 }
-body{
-	height: 100%;
+body, html{
+	height: 100%; 
 }
 img {
 	width: 100%;
@@ -24,7 +24,8 @@ h1 {
 	font-size: 3.0em;
 	letter-spacing: 10px;
 	text-align: center;
-	padding-top: 70px;
+  padding-top: 70px;
+
 }
 span {
 	font-weight: 200;
@@ -36,6 +37,9 @@ p {
 	color: hsl(0, 36%, 70%);
 	margin: 0 6px;
 	font-size: 16px;
+}
+.medium-text{
+  padding-top:60px;
 }
 form {
 	margin: auto;
@@ -54,5 +58,13 @@ form {
 	padding: 0px 5px;
 	font-weight: 400;
 }
-input:submit {
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  h1{
+    font-size: 4.2em;
+  }
+  p{
+  font-size: 16px;
+  margin: 80px 7px 0px 7px;
+}
 }

@@ -11,9 +11,9 @@
 </head>
 
 <body>
-  <header>
+  <header class="">
     <div class="container">
-      <div class="row">
+      <div class="row ">
         <div class="col mobile-img-logo">
           <img src="/images/logo.svg" alt="">
         </div>
@@ -23,19 +23,26 @@
 
   <div class="container-fluid mobile-img-container">
     <div class="row">
-      <div class="col d-lg-none">
-        <img src="/images/hero-mobile.jpg" alt="">
+      <div class="col">
+        <img src="/images/hero-mobile.jpg" alt="" class="d-md-none small-screen-img">
+        <img src="/images/hero-desktop.jpg" alt="" class="medium-screen-img">
       </div> 
     </div> 
   </div> 
     
 
-  <div class="container">
-      <div class="row">
-        <div class="col col-md-6">
-          <h1 class="d-flex justify-content-center flex-column" ><span>We're</span> coming <br> soon</h1>
+<div class="container"></div>
+  <div class="row">
+    <div class="col-lg-7">
+      <div class="container">
+        <div class="row">
+          <div class="col desktop-img-logo d-none d-lg-block">
+            <img src="/images/logo.svg" alt="">
           </div>
-          <div class="col col-md-6 mt-md-auto text-col">
+          <div class="col col-md-6 col-lg-12">
+            <h1 class="d-flex justify-content-center flex-column"><span>We're</span> coming <br> soon</h1>
+          </div>
+          <div class="col col-md-6 mt-md-auto text-col col-lg-12">
             <p class="d-flex justify-content-center ">
               Hello fellow shoppers! We're currently building our new fashion store.
               Add your email below to stay up-to-date with announcements and our launch deals.
@@ -43,11 +50,15 @@
             <form action="" class="d-flex justify-content-center">
               <input type="email" name="" id="email" placeholder="Email Address" class="email">
             </form>
-            </div>
           </div>
-        <div class="col-lg">
-        </div> 
-    </div> 
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-5 desktop-img d-none d-lg-block desktop-img ">
+        <img src="/images/hero-desktop.jpg" alt="desktop main img">
+    </div>
+  </div>
+  
 
 
   

@@ -1,16 +1,18 @@
 *{
   padding:0;
   margin:0;
+  overflow-x: hidden;
 }
 body {
 	font-family: 'Josefin Sans', sans-serif;
   background-image: linear-gradient(hsl(0, 0%, 100%), hsl(0, 100%, 98%));
 }
-body, html, .container-fluid{
+body, html,{
 	height: 100%; 
 }
 img {
-	width: 100%;
+	max-width: 100%;
+	height: auto;
 }
 header {
 	padding: 30px;

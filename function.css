@@ -1,0 +1,10 @@
+input{
+  border:black solid 1px;
+}
+img{
+  width:100%;
+}
+button{
+ background-image: linear-gradient(hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+border-radius: 75px;
+}

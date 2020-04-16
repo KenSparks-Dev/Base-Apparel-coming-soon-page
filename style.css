@@ -5,7 +5,9 @@
 }
 body {
 	font-family: 'Josefin Sans', sans-serif;
-  background-image: linear-gradient(hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+	background-image: linear-gradient(hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+	background-repeat: no-repeat;
+	background-size: auto;
 }
 body, html,{
 	height: 100%; 

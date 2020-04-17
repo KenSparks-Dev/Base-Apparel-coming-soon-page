@@ -100,7 +100,7 @@ form {
   }
   h1 {
 	text-transform: uppercase;
-	font-size: 6.0em;
+	font-size: 7.0em;
 	letter-spacing: 10px;
 	text-align: left;
   padding-top: 100px;
@@ -117,7 +117,7 @@ p {
 	color: hsl(0, 36%, 70%);
 	margin: 0 6px;
   font-size: 25px;
-  width:600px;
+  width:500px;
   margin:15px 0px 0px 220px;
 
 }
@@ -142,3 +142,4 @@ p {
  
 }
 
+}

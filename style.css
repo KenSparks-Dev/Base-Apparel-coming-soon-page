@@ -5,12 +5,9 @@
 }
 body {
 	font-family: 'Josefin Sans', sans-serif;
-	background-image: linear-gradient(hsl(0, 0%, 100%), hsl(0, 100%, 98%));
-	background-repeat: no-repeat;
-	background-size: auto;
-}
-body, html,{
-	height: 100%; 
+	background-image: linear-gradient(to bottom ,hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+	background-attachment:fixed;
+	height:100%;
 }
 
 header {
@@ -71,7 +68,15 @@ form {
 	padding: 0px 5px;
 	font-weight: 400;
 }
+.form button{
+	border-radius: 30px;
+	background-image: linear-gradient(to right ,hsl(0, 80%, 86%),hsl(0, 74%, 74%));
+	padding:13px 30px;
 
+}
+.form button img{
+
+}
 @media (min-width: 768px) and (max-width: 1199.98px){ 
   h1{
     font-size: 4.2em;
